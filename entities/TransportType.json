@@ -1,0 +1,9 @@
+{
+  "id": "30029f05-fa01-4b32-9459-1ef393c6f078",
+  "name": "TransportType",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

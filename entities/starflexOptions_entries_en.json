@@ -1,0 +1,38 @@
+[
+  {
+    "value": "Health Screening",
+    "synonyms": [
+      "BP Healthcare Centres",
+      "Company panel hospitals",
+      "Health Screening",
+      "Medical Centre",
+      "clinics"
+    ]
+  },
+  {
+    "value": "Optical Wear",
+    "synonyms": [
+      "Contact lens",
+      "Optical Wear",
+      "Spectacles",
+      "Sunglasses"
+    ]
+  },
+  {
+    "value": "Vacation Savings",
+    "synonyms": [
+      "Vacation Savings",
+      "accomodation",
+      "flight",
+      "hotel",
+      "hotel room booking",
+      "travel in plane"
+    ]
+  },
+  {
+    "value": "subscription fee",
+    "synonyms": [
+      "subscription fee"
+    ]
+  }
+]

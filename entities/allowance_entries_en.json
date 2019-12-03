@@ -1,0 +1,38 @@
+[
+  {
+    "value": "Mileage_rate",
+    "synonyms": [
+      "Milage",
+      "milage rate",
+      "mile"
+    ]
+  },
+  {
+    "value": "cash handling",
+    "synonyms": [
+      "Cash",
+      "cash handleing",
+      "cash handling"
+    ]
+  },
+  {
+    "value": "laundry",
+    "synonyms": [
+      "laundry",
+      "lndry"
+    ]
+  },
+  {
+    "value": "subsistence allowance",
+    "synonyms": [
+      "subsistence"
+    ]
+  },
+  {
+    "value": "transportation",
+    "synonyms": [
+      "transport",
+      "transportation"
+    ]
+  }
+]

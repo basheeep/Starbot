@@ -1,0 +1,9 @@
+{
+  "id": "469d9715-6235-4979-bd47-8343d1798055",
+  "name": "MaternityBenefitType",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

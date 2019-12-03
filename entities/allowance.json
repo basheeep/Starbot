@@ -1,0 +1,9 @@
+{
+  "id": "eb0e1edb-a05a-49cb-82ea-cc6a150167bb",
+  "name": "allowance",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

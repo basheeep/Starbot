@@ -1,0 +1,9 @@
+{
+  "id": "4407e540-16b0-4256-a4c5-c8e0c7e5e7c4",
+  "name": "leave",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

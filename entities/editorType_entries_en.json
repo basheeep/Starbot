@@ -1,0 +1,17 @@
+[
+  {
+    "value": "editorial",
+    "synonyms": [
+      "editor",
+      "editorial"
+    ]
+  },
+  {
+    "value": "nonEditorial",
+    "synonyms": [
+      "non editorial",
+      "nonEditorial",
+      "not editor"
+    ]
+  }
+]

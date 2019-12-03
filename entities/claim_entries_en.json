@@ -1,0 +1,27 @@
+[
+  {
+    "value": "normal benefit",
+    "synonyms": [
+      "benefit"
+    ]
+  },
+  {
+    "value": "star flex benefit",
+    "synonyms": [
+      "star flex",
+      "star flex benefit"
+    ]
+  },
+  {
+    "value": "training",
+    "synonyms": [
+      "training"
+    ]
+  },
+  {
+    "value": "travel",
+    "synonyms": [
+      "travel"
+    ]
+  }
+]

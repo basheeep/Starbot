@@ -1,0 +1,9 @@
+{
+  "id": "4aab436e-f6af-48e0-a64b-8382c0a55f08",
+  "name": "editorType",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

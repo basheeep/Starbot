@@ -1,0 +1,35 @@
+[
+  {
+    "value": "alternateTransport",
+    "synonyms": [
+      "alternative transport",
+      "alternativeTransport",
+      "bus",
+      "different transport",
+      "grab",
+      "own means of transport",
+      "own transport",
+      "public transport",
+      "ride sharing"
+    ]
+  },
+  {
+    "value": "bike",
+    "synonyms": [
+      "bike",
+      "honda",
+      "motor bike",
+      "motor cycle",
+      "motor scooter",
+      "motor-bike"
+    ]
+  },
+  {
+    "value": "car",
+    "synonyms": [
+      "car",
+      "motor car",
+      "motor-car"
+    ]
+  }
+]

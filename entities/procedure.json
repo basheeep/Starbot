@@ -1,0 +1,9 @@
+{
+  "id": "0f4443ce-6207-4c2f-8f97-d1fe0e20ddde",
+  "name": "procedure",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

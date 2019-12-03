@@ -1,0 +1,9 @@
+{
+  "id": "d403c804-71c6-48b9-b7c7-d0854ee516b2",
+  "name": "LeaveType",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ec0f8c56-c003-4714-a756-66a90a7798d5",
+  "name": "starflexOptions",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

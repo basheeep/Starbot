@@ -1,0 +1,9 @@
+{
+  "id": "980f6574-234b-4827-baf0-3d214d380e93",
+  "name": "SubsistenceType",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

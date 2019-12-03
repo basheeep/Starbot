@@ -1,0 +1,40 @@
+[
+  {
+    "value": "Annual",
+    "synonyms": [
+      "annual"
+    ]
+  },
+  {
+    "value": "MarriageLeave",
+    "synonyms": [
+      "marriage",
+      "married",
+      "wedding"
+    ]
+  },
+  {
+    "value": "Paternity",
+    "synonyms": [
+      "Paternity",
+      "having a child"
+    ]
+  },
+  {
+    "value": "Prolongedillness",
+    "synonyms": [
+      "Prolongedillness",
+      "long period",
+      "long term leave",
+      "medical leave",
+      "prolonged illness"
+    ]
+  },
+  {
+    "value": "public",
+    "synonyms": [
+      "public",
+      "public holiday"
+    ]
+  }
+]
