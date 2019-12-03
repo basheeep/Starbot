@@ -1,0 +1,26 @@
+[
+  {
+    "id": "4c7f4914-3c2f-4fc7-affa-217c2e18bbdf",
+    "data": [
+      {
+        "text": "benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "2eb15030-574d-43f3-918c-cf3b33e48c98",
+    "data": [
+      {
+        "text": "benefits and claims",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  }
+]

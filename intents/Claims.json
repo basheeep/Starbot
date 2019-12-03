@@ -1,0 +1,59 @@
+{
+  "id": "d6d77408-787e-43bc-9c07-6b2c6b0e256a",
+  "name": "Claims",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "edf9124e-3fc1-4e56-ac2c-861124da8073",
+          "required": false,
+          "dataType": "@claim",
+          "name": "claim",
+          "value": "$claim",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d85b4395-f176-4be9-ad06-d4706f3e8a4a",
+          "required": false,
+          "dataType": "@training",
+          "name": "training",
+          "value": "$train",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "You can claim RM50 from your Starflex Membership.",
+            "You can claim up to RM40 upon submission of receipt"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

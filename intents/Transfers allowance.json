@@ -1,0 +1,93 @@
+{
+  "id": "159c4077-f20f-48d9-8dd8-478e935b2be8",
+  "name": "Transfers allowance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "The transfer allowance for a  executive",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/starbot-2c703.appspot.com/o/Capture.PNG?alt\u003dmedia\u0026token\u003d821f8f7f-4044-490a-8c14-ecfd72d7de0c",
+            "accessibilityText": "Transfer allowance"
+          }
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Allowance"
+            },
+            {
+              "title": "More FAQ"
+            },
+            {
+              "title": "Get Ticket"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "For a single employee transfer you will be paid a lump sum amount of RM640.00"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "if you have a wife extra RM320 will be added to your transfer allowance."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Same goes if you have a child bellow 7 years, RM260 and if the child is over 7 years RM320 will be added."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "The total payable sum should no exceed RM2,840.00."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "anymore query?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "3a134c0d-0f13-465a-b514-3c624a3665f3",
+    "data": [
+      {
+        "text": "half day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e47dfe59-79da-4301-8484-08d589e6ceb5",
+    "data": [
+      {
+        "text": "full day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c6f9250-6b22-4e89-b261-deed8e451613",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "SubsistenceType",
+        "meta": "@SubsistenceType",
+        "userDefined": false
+      },
+      {
+        "text": " is half day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a725cb3-7245-46de-b869-6a284853df08",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "training",
+        "alias": "SubsistenceType",
+        "meta": "@SubsistenceType",
+        "userDefined": true
+      },
+      {
+        "text": " is full-day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

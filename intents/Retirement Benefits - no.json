@@ -1,0 +1,38 @@
+{
+  "id": "99c4bd28-6961-45f5-bf45-ba2b5e0cb1b1",
+  "parentId": "cd1afbbb-2975-42cc-892a-24555d79bf3c",
+  "rootParentId": "cd1afbbb-2975-42cc-892a-24555d79bf3c",
+  "name": "Retirement Benefits - no",
+  "auto": true,
+  "contexts": [
+    "RetirementBenefits-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RetirementBenefits.RetirementBenefits-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Okay! Say \u0027Hi\u0027 to know more!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

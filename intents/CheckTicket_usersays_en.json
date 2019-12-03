@@ -1,0 +1,74 @@
+[
+  {
+    "id": "d8a17b74-f36e-45a6-a7e5-15f8ee423f3f",
+    "data": [
+      {
+        "text": "support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a2974bd-214a-40c5-9df6-12ead99db065",
+    "data": [
+      {
+        "text": "check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bfc9c449-a18f-4bf7-a1b6-2adb3dda9fc3",
+    "data": [
+      {
+        "text": "check support ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "19ac33a0-8459-4bf9-b14f-a179ae1b1957",
+    "data": [
+      {
+        "text": "ticket check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1a8e9d73-70d0-4477-8061-c6762fe64485",
+    "data": [
+      {
+        "text": "checkticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87b0ed73-25dc-4e3b-9266-1815376fab3e",
+    "data": [
+      {
+        "text": "check ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

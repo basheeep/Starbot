@@ -1,0 +1,69 @@
+{
+  "id": "511d9a6d-c266-4632-b799-4d0a8c39f3a2",
+  "parentId": "e068fb07-a37d-4dcd-b90a-f8d7715bce65",
+  "rootParentId": "e068fb07-a37d-4dcd-b90a-f8d7715bce65",
+  "name": "Night allowance - nonEditorial",
+  "auto": true,
+  "contexts": [
+    "nightOutput",
+    "Nightallowance-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Nightallowance.Nightallowance-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Between 1.00 pm and 5.59 pm, you will be eligible for an allowance of RM8.00 per shift,",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Between 6.00 pm and 11.59 pm, you will be eligible for an allowance of RM15.75 per shift and from Between 12.00 am and 4.00 am, you will be eligible for an allowance of RM16.50 per shift.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "More FAQ"
+            },
+            {
+              "title": "Night Allowance"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

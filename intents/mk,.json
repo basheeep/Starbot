@@ -1,0 +1,52 @@
+{
+  "id": "1315b23c-c53c-4a82-9a85-82fc66a699f9",
+  "parentId": "2d199f9f-1315-44b5-bad5-ac7f9cebf64f",
+  "rootParentId": "2d199f9f-1315-44b5-bad5-ac7f9cebf64f",
+  "name": "mk,",
+  "auto": true,
+  "contexts": [
+    "CheckTicket-followup",
+    "ticketentry",
+    "CheckTicket-fallback",
+    "CheckTicket_fallback"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CheckTicket.CheckTicket-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "971e2e19-b5c6-4384-80b8-d5529a544202",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

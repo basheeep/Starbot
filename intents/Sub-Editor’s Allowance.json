@@ -1,0 +1,88 @@
+{
+  "id": "b7edc83a-766a-4792-83bf-afd6c63b4035",
+  "name": "Sub-Editor’s Allowance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Every sub-editor shall be paid a sub-editor’s allowance of RM520 per month for so\nlong as he is appointed as such. This Allowance shall be paid whilst the Employee is on sick leave or on Annual Leave .",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "textToSpeech": "What else would you like to know?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Is there anything else I could help you with ?",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Would that be all Master Stark?",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Main menu"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Every sub-editor shall be paid a sub-editor’s allowance of RM520.00 per month for so\nlong as he is appointed as such."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "The said allowance shall be paid while the employee is on sick leave or on annual leave\nnot longer than half a month."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "what else would you like to know?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

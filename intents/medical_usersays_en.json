@@ -1,0 +1,55 @@
+[
+  {
+    "id": "81512d69-5148-457d-aeb9-a4df76520ad2",
+    "data": [
+      {
+        "text": "medical ",
+        "userDefined": false
+      },
+      {
+        "text": "benefits",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "83bf4ad2-b14a-4d07-82b2-4559b0f200ea",
+    "data": [
+      {
+        "text": "medical",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4012c45f-ef26-452c-8adf-9404c313cd77",
+    "data": [
+      {
+        "text": "what is the benefits for medical purposes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "57c52bcd-bc52-4367-8207-af2b44e909e7",
+    "data": [
+      {
+        "text": "what are my medical benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "id": "3d3c523d-f25e-4814-bbc0-325432c3aa2f",
+  "name": "allowance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "transfer"
+            },
+            {
+              "title": "night"
+            },
+            {
+              "title": "transportation"
+            },
+            {
+              "title": "subsistence"
+            },
+            {
+              "title": "Laundry"
+            },
+            {
+              "title": "Sub-editors allowance"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "There are few types of allowance for a executive, such as transfer allowance, night allowance, transportation allowance and sub editor\u0027s allowance."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "which one would you like to know about?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true,
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

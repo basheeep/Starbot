@@ -1,0 +1,54 @@
+{
+  "id": "09725b77-7b93-4495-b88d-64e212daa970",
+  "parentId": "496417a6-576e-401d-acd0-6a3525b64faa",
+  "rootParentId": "496417a6-576e-401d-acd0-6a3525b64faa",
+  "name": "Subsistence-type - location - jobtype - duration",
+  "auto": true,
+  "contexts": [
+    "duration",
+    "where",
+    "employeeType"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Subsistence-type-location-jobtype.Subsistence-type-location-jobtype-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2e6f2d89-a7dd-4c8e-a420-ef20b0c69232",
+          "required": false,
+          "dataType": "@SubsistenceType",
+          "name": "SubsistenceType",
+          "value": "$SubsistenceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#Subsistence-type.SubsistenceType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Depending on your description you will get RM100 as your subsistence allowance."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bab2e50b-7341-4fa7-af6d-c815aa1a2dd3",
+    "data": [
+      {
+        "text": "i have a major disease, need leave for a long period of time.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ca04a76-4307-4f15-9f21-f56f0f85a923",
+    "data": [
+      {
+        "text": "i am very sick for a long period of time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "458168cb-90c4-4007-906f-2d7a9bee277c",
+    "data": [
+      {
+        "text": "prolonged illness leave",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

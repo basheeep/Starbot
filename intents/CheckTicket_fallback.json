@@ -1,0 +1,38 @@
+{
+  "id": "081d668a-e4e2-4aee-b372-693fb1fd75d4",
+  "parentId": "2d199f9f-1315-44b5-bad5-ac7f9cebf64f",
+  "rootParentId": "2d199f9f-1315-44b5-bad5-ac7f9cebf64f",
+  "name": "CheckTicket_fallback",
+  "auto": false,
+  "contexts": [
+    "CheckTicket-followup",
+    "ticketentry",
+    "CheckTicket_fallback"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CheckTicket.CheckTicket-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

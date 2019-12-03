@@ -1,0 +1,54 @@
+{
+  "id": "0895fac1-acf2-4a81-ab15-a15c948ed77a",
+  "name": "medical",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "More FAQ"
+            },
+            {
+              "title": "Get nearby Clinic"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "The Company shall extend outpatient medical coverage to an executive’s spouse (not\nemployed) and children (up to age of 23 only) whereby the company will take up 75% of the\ncharges, subject to a maximum of RM500.00 per annum."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "You can also contact MiCare  at 1800-87-7940 to check more medical services."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true,
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

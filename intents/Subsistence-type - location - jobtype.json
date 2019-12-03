@@ -1,0 +1,73 @@
+{
+  "id": "496417a6-576e-401d-acd0-6a3525b64faa",
+  "name": "Subsistence-type - location - jobtype",
+  "auto": true,
+  "contexts": [
+    "employeeType",
+    "where"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Subsistence-type.Subsistence-type-custom.Subsistence-type-location-custom",
+      "affectedContexts": [
+        {
+          "name": "duration",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e985b248-d13c-4126-b35d-5a74116d822b",
+          "required": false,
+          "dataType": "@SubsistenceType",
+          "name": "SubsistenceType",
+          "value": "#where.SubsistenceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#where.SubsistenceType",
+          "isList": false
+        },
+        {
+          "id": "daffbe6b-f0e8-4282-9bde-1e406aec1493",
+          "required": true,
+          "dataType": "@jobType",
+          "name": "jobType",
+          "value": "$jobType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please write the type of your job"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "how long is your $SubsistenceType?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "453b3832-6b57-44d9-8ded-7983b0c091dd",
+    "data": [
+      {
+        "text": "my subsitance allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4cc79323-42d0-4496-8a30-11badb5c8a9d",
+    "data": [
+      {
+        "text": "if i go for ",
+        "userDefined": false
+      },
+      {
+        "text": "training",
+        "alias": "SubsistenceType",
+        "meta": "@SubsistenceType",
+        "userDefined": true
+      },
+      {
+        "text": ", what is my subsistence allowance ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "248f3308-e1a8-4106-bfd1-31eee4951d08",
+    "data": [
+      {
+        "text": "i need to travel for a ",
+        "userDefined": false
+      },
+      {
+        "text": "training",
+        "alias": "SubsistenceType",
+        "meta": "@SubsistenceType",
+        "userDefined": false
+      },
+      {
+        "text": ", will i get any allowances for that?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2b2d271-c4ce-4831-8d04-28d4ab74ad9b",
+    "data": [
+      {
+        "text": "how much is my subsistence allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f32275ca-bf5d-4f50-bab7-c2db330a7d6a",
+    "data": [
+      {
+        "text": "if i travel for ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "SubsistenceType",
+        "meta": "@SubsistenceType",
+        "userDefined": false
+      },
+      {
+        "text": ", will i get a allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

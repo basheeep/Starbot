@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ebfb9937-7f1a-49fd-824d-5b56a8842dd4",
+    "data": [
+      {
+        "text": "i am a ",
+        "userDefined": false
+      },
+      {
+        "text": "manager",
+        "alias": "jobType",
+        "meta": "@jobType",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6a0350e8-81a5-48eb-b630-1a238abd7549",
+    "data": [
+      {
+        "text": "i am a ",
+        "userDefined": false
+      },
+      {
+        "text": "senior executive",
+        "alias": "jobType",
+        "meta": "@jobType",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

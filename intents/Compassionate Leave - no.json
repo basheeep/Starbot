@@ -1,0 +1,44 @@
+{
+  "id": "530006f8-664c-4b92-a60a-5967aae83297",
+  "parentId": "a748b173-6141-483a-8523-260fe87a526a",
+  "rootParentId": "a748b173-6141-483a-8523-260fe87a526a",
+  "name": "Compassionate Leave - no",
+  "auto": true,
+  "contexts": [
+    "CompassionateLeave-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CompassionateLeave.CompassionateLeave-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Alright!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ask me anything else you would like to know"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

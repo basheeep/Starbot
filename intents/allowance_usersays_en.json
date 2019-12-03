@@ -1,0 +1,48 @@
+[
+  {
+    "id": "6d47edb0-f10e-45ff-8dd1-bf6f36a36f34",
+    "data": [
+      {
+        "text": "what are our ",
+        "userDefined": false
+      },
+      {
+        "text": "allowances",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20d3b70e-48f9-4366-a80c-490bf635dcfa",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "allowances",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73257f5a-e3d6-45f4-b56d-1e763b3d59a3",
+    "data": [
+      {
+        "text": "allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

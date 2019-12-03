@@ -1,0 +1,125 @@
+[
+  {
+    "id": "23380e48-17e9-4089-95ec-9c79e081885f",
+    "data": [
+      {
+        "text": "how much is my ",
+        "userDefined": false
+      },
+      {
+        "text": "training",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " claim?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7b4e146e-89b4-4350-b988-3de107785db1",
+    "data": [
+      {
+        "text": "training",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " facilities?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd747cb9-c4f5-42f9-acbb-c871a5e1aeb8",
+    "data": [
+      {
+        "text": "training",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8d5ecfef-38f8-47a5-bbdc-4778fd860144",
+    "data": [
+      {
+        "text": "what can i claim for ",
+        "userDefined": false
+      },
+      {
+        "text": "training",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c59631bd-cf14-416d-a357-8624b9642788",
+    "data": [
+      {
+        "text": "training procedure",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc3591f4-3018-4dde-babe-0dad2dd226d8",
+    "data": [
+      {
+        "text": "what is the ",
+        "userDefined": false
+      },
+      {
+        "text": "training",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "procedure",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

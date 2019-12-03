@@ -1,0 +1,46 @@
+{
+  "id": "cd1afbbb-2975-42cc-892a-24555d79bf3c",
+  "name": "Retirement Benefits",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "RetirementBenefits-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "The employee who has been in continues employment with the company for more than Five(5) years is eligible to retirement benefits."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Do you want to view the Retirement benefit document?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true,
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

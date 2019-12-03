@@ -1,0 +1,23 @@
+[
+  {
+    "id": "4f1832d4-f01f-4e93-a249-9a9db35a47fe",
+    "data": [
+      {
+        "text": "Group ",
+        "userDefined": false
+      },
+      {
+        "text": "insurance",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " coverage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

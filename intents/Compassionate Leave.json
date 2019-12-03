@@ -1,0 +1,65 @@
+{
+  "id": "a748b173-6141-483a-8523-260fe87a526a",
+  "name": "Compassionate Leave",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "CompassionateLeave-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8ba372c5-4d09-457d-8c4b-7f67187fd853",
+          "required": false,
+          "dataType": "@LeaveType",
+          "name": "LeaveType",
+          "value": "$LeaveType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "Compassionate",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "You will get compassionate leave for the following criteria,"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "1. Three days of leave for marriage of your lawful children\n2. Two to Three days for hospitalization of closest family member. \n3. Three to Five consecutive working days leave for the death of closest family member."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Do you want to see the detailed criteria for compassionate leave?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

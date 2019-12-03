@@ -1,0 +1,40 @@
+{
+  "id": "454a1247-5c74-4c91-8cd1-22729d91d3f3",
+  "parentId": "80435a59-9802-4fc1-a3a4-5304e00532a9",
+  "rootParentId": "80435a59-9802-4fc1-a3a4-5304e00532a9",
+  "name": "Clinic_handler",
+  "auto": true,
+  "contexts": [
+    "Clinic-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Clinic.Clinic-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_PERMISSION"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

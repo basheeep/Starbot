@@ -1,0 +1,85 @@
+[
+  {
+    "id": "c2e762df-917a-4c3d-b15f-51c15f88cdc0",
+    "data": [
+      {
+        "text": "health screening",
+        "alias": "starflexOptions",
+        "meta": "@starflexOptions",
+        "userDefined": false
+      },
+      {
+        "text": " benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63c7fac7-fd05-4c02-af16-3300ced60045",
+    "data": [
+      {
+        "text": "can i claim ",
+        "userDefined": false
+      },
+      {
+        "text": "optical wear",
+        "alias": "starflexOptions",
+        "meta": "@starflexOptions",
+        "userDefined": false
+      },
+      {
+        "text": " for my benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2188216c-4dd8-45d5-bdb1-ed531e977070",
+    "data": [
+      {
+        "text": "what is my starflex benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9064468-f2a6-4646-a3e1-677ec8b8ded9",
+    "data": [
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "can",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " I claim my ",
+        "userDefined": false
+      },
+      {
+        "text": "hotel room booking",
+        "alias": "starflexOptions",
+        "meta": "@starflexOptions",
+        "userDefined": true
+      },
+      {
+        "text": " under starflex?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

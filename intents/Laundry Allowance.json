@@ -1,0 +1,74 @@
+{
+  "id": "9cb042a4-fb7c-4661-9780-8d3c8755c26c",
+  "name": "Laundry Allowance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "textToSpeech": "An executive who is provided with a full set of uniforms by the Company shall be paid an\nallowance of RM55.00 per month.",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "You will be paid an allowance of RM55.00 per month for laundry.",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "More FAQ"
+            },
+            {
+              "title": "Get Ticket"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "An executive who is provided with a full set of uniforms by the Company shall be paid an\nallowance of RM55.00 per month.",
+            "You will be paid an allowance of RM55.00 per month for laundry."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "is there anything else you would like to know?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

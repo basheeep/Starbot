@@ -1,0 +1,58 @@
+{
+  "id": "c05cf26a-b8f2-4a35-bb09-252914be98b9",
+  "name": "Subsistence-type",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "where",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a095900d-626d-4cb3-a9a3-2ff2d45c81e4",
+          "required": true,
+          "dataType": "@SubsistenceType",
+          "name": "SubsistenceType",
+          "value": "$SubsistenceType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For subsistence allowance i need to know the purpose of your travel? is it work or training related?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "where are you traveling to for $SubsistenceType?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

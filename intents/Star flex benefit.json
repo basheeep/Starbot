@@ -1,0 +1,45 @@
+{
+  "id": "9e4ed7bb-2df8-4cd6-87de-c195f7fd78dc",
+  "name": "Star flex benefit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "An employee is entitled to a flexible expense amount of RM500.00 per year. which can be utilized in one or more 4-pre set options."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "For now, the four options are:\n(i) Health Screening\n(ii) Optical Wear\n(iii) Vacation Savings\n(iv) Professional Membership Fee"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

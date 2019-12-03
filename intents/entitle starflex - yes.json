@@ -1,0 +1,36 @@
+{
+  "id": "d95a5a5a-43ff-48b4-86db-b365b64398fb",
+  "parentId": "ff8ad16a-4a10-4e61-8014-e871d97b8298",
+  "rootParentId": "ff8ad16a-4a10-4e61-8014-e871d97b8298",
+  "name": "entitle starflex - yes",
+  "auto": true,
+  "contexts": [
+    "entitlestarflex-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "entitlestarflex.entitlestarflex-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "yes! you are entitled to starflex benefits."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

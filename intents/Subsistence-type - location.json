@@ -1,0 +1,55 @@
+{
+  "id": "15266a06-bbb6-4513-a32b-86bae1d5c4ca",
+  "parentId": "c05cf26a-b8f2-4a35-bb09-252914be98b9",
+  "rootParentId": "c05cf26a-b8f2-4a35-bb09-252914be98b9",
+  "name": "Subsistence-type - location",
+  "auto": true,
+  "contexts": [
+    "where"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Subsistence-type.Subsistence-type-custom",
+      "affectedContexts": [
+        {
+          "name": "employeeType",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f87e300c-c069-400a-8870-a0d7b26d2f85",
+          "required": true,
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "what is your job category? are you an executive, senior executive, manager or a senior manager?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

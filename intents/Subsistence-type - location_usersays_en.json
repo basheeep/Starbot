@@ -1,0 +1,74 @@
+[
+  {
+    "id": "a93e8d84-31e0-43ff-815c-ba5007808d7e",
+    "data": [
+      {
+        "text": "to ",
+        "userDefined": false
+      },
+      {
+        "text": "malaysia",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2a1bdef6-4e40-4224-96a3-2270aad651a6",
+    "data": [
+      {
+        "text": "i am going to ",
+        "userDefined": false
+      },
+      {
+        "text": "Singapore",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6f1e29ff-7aca-4e1a-a5b3-ee0d69980ac1",
+    "data": [
+      {
+        "text": "i am going to ",
+        "userDefined": false
+      },
+      {
+        "text": "east malaysia",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9d34ef3c-48d1-4ebc-9bec-9f6c52deaa03",
+    "data": [
+      {
+        "text": "i am going to Peninsular ",
+        "userDefined": false
+      },
+      {
+        "text": "Malaysia",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

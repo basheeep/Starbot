@@ -1,0 +1,87 @@
+{
+  "id": "c1331ab5-4460-43a9-b2e2-641390976486",
+  "name": "Starflex",
+  "auto": true,
+  "contexts": [
+    "sign_in_confirmation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Starflex-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "sign_in_confirmation-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b134deed-8974-4a3a-b903-04292b40885d",
+          "required": false,
+          "dataType": "@starflexOptions",
+          "name": "starflexOptions",
+          "value": "$starflexOptions",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "you can claim your RM500 starflex expense and utilize in one or more pre-set options such as Health Screening, Optical Wear, Vacation Savings, subscription fee. please specify your benefit type."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "6b5e206c-0fbd-4a15-86f9-944ec6026903",
+          "required": false,
+          "dataType": "@employeeType",
+          "name": "employeeType",
+          "value": "$employeeType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "An employee is entitled to a flexible expense amount of RM500.00 per year. which can be utilized in one or more 4-pre set options."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "For now, the four options are:\n(i) Health Screening\n(ii) Optical Wear\n(iii) Vacation Savings\n(iv) Professional Membership Fee"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "If you are a executive than you can claim the starflex benefits."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

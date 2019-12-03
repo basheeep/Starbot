@@ -1,0 +1,82 @@
+{
+  "id": "8ae8f148-99c6-4894-87d0-76ecedd14280",
+  "parentId": "dcc23e53-dd49-488e-83e9-5020078ecc7c",
+  "rootParentId": "dcc23e53-dd49-488e-83e9-5020078ecc7c",
+  "name": "Transport allowance - car",
+  "auto": true,
+  "contexts": [
+    "Transportallowance-followup",
+    "selectTransport"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Transportallowance.Transportallowance-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a68ae10e-8053-47e4-a0e2-217d4874b0e0",
+          "required": false,
+          "dataType": "@TransportType",
+          "name": "TransportType",
+          "value": "$TransportType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "You will get RM160 and a sum equivalent to 146 liters of petrol per month.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "What else would you like to know?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Main menu"
+            },
+            {
+              "title": "Transport allowance"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

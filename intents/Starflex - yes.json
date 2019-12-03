@@ -1,0 +1,50 @@
+{
+  "id": "799794c1-6fd5-4bde-a4bf-ddcf7662364c",
+  "parentId": "c1331ab5-4460-43a9-b2e2-641390976486",
+  "rootParentId": "c1331ab5-4460-43a9-b2e2-641390976486",
+  "name": "Starflex - yes",
+  "auto": true,
+  "contexts": [
+    "Starflex-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Starflex.Starflex-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3d133173-5584-4892-bea1-a4c1055e3b00",
+          "required": true,
+          "dataType": "@starflexOptions",
+          "name": "starflexOptions",
+          "value": "#Starflex-followup.starflexOptions.original",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#Starflex-followup.starflexOptions.original",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "yes you can claim $starflexOptions under starflex benefit."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

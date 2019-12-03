@@ -1,0 +1,75 @@
+{
+  "id": "4bf53c78-3c8b-4d2f-9752-1191fa5b0169",
+  "parentId": "e068fb07-a37d-4dcd-b90a-f8d7715bce65",
+  "rootParentId": "e068fb07-a37d-4dcd-b90a-f8d7715bce65",
+  "name": "Night allowance - Editorial",
+  "auto": true,
+  "contexts": [
+    "nightOutput",
+    "Nightallowance-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Nightallowance.Nightallowance-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "From 2.00 pm inclusive and before 6.00 pm, you will be eligible for an allowance of RM8.00 per shift.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "From 6.00 pm onwards, you will be eligible for an allowance of RM15.75 per shift.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "More FAQ"
+            },
+            {
+              "title": "Night Allowance"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "From 2.00 pm inclusive and before 6.00 pm, you will be eligible for an allowance of RM8.00 per shift."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "From 6.00 pm onwards, you will be eligible for an allowance of RM15.75 per shift."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

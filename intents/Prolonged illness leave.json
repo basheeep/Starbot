@@ -1,0 +1,31 @@
+{
+  "id": "c29ac925-2740-460e-9897-9b113fad4df3",
+  "name": "Prolonged illness leave",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Prolonged illness leave shall not exceed fifteen (15) months; the first nine (9) months\nbeing on full salary, the second three (3) months on half salary and the third three (3)\nmonths on quarter salary."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

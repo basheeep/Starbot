@@ -1,0 +1,71 @@
+{
+  "id": "68c18f78-62dc-4ac2-9af5-16d74c912d29",
+  "name": "menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Choose an option from below",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Allowance"
+            },
+            {
+              "title": "Transfer"
+            },
+            {
+              "title": "Benefits"
+            },
+            {
+              "title": "Insurance"
+            },
+            {
+              "title": "Medical"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ask me anything from the keywords."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "i) Allowance ii) Transfers iii) Sub-Editor\u0027s allowance iv) Benefits v) Insurance vi)Medical vi) Maternity Benefit vii) leave"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

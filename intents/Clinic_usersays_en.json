@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ace723d3-5ce2-4b6d-a030-afcf8e00e3d6",
+    "data": [
+      {
+        "text": "nearby ",
+        "userDefined": false
+      },
+      {
+        "text": "clinics",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "522d55a3-f7ab-40de-8517-249bbd0a88dc",
+    "data": [
+      {
+        "text": "clinics",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ab03ffb-06eb-48fc-a83f-d1c13946224f",
+    "data": [
+      {
+        "text": "clinic",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6dc84b2e-9ae8-4271-bf3c-cfb722f3149c",
+    "data": [
+      {
+        "text": "find ",
+        "userDefined": false
+      },
+      {
+        "text": "clinic",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

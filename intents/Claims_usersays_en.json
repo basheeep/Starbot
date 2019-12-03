@@ -1,0 +1,99 @@
+[
+  {
+    "id": "fcf9602d-0922-4e54-a45d-6c0faa42143b",
+    "data": [
+      {
+        "text": "what can i claim for ",
+        "userDefined": false
+      },
+      {
+        "text": "travel",
+        "alias": "claim",
+        "meta": "@claim",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ad3a31da-95a3-4426-9913-f38c4c5053fa",
+    "data": [
+      {
+        "text": "how much i can claim for ",
+        "userDefined": false
+      },
+      {
+        "text": "travel",
+        "alias": "claim",
+        "meta": "@claim",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9388a0a5-bf0a-4247-a213-c3ed3e904eb7",
+    "data": [
+      {
+        "text": "how much is my ",
+        "userDefined": false
+      },
+      {
+        "text": "starflex",
+        "alias": "claim",
+        "meta": "@claim",
+        "userDefined": true
+      },
+      {
+        "text": " benifit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fcdbd244-61ed-4d46-a8e4-b55cafb623cc",
+    "data": [
+      {
+        "text": "how much i can ",
+        "userDefined": false
+      },
+      {
+        "text": "claim",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "training",
+        "alias": "claim",
+        "meta": "@claim",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

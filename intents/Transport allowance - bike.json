@@ -1,0 +1,82 @@
+{
+  "id": "edd107c7-c92c-42d6-a3f0-d08dc529b786",
+  "parentId": "dcc23e53-dd49-488e-83e9-5020078ecc7c",
+  "rootParentId": "dcc23e53-dd49-488e-83e9-5020078ecc7c",
+  "name": "Transport allowance - bike",
+  "auto": true,
+  "contexts": [
+    "Transportallowance-followup",
+    "selectTransport"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Transportallowance.Transportallowance-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0099536d-b841-40ad-938d-9ea079c81ef4",
+          "required": false,
+          "dataType": "@TransportType",
+          "name": "TransportType",
+          "value": "$TransportType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "You will receive RM315 and a sum equivalent to 240 liters of petrol per month.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Would you like to know anything else?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Main Menu"
+            },
+            {
+              "title": "Transport allowance"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

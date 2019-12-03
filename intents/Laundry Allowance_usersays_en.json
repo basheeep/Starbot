@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c4e7fad1-537d-4dbd-8f5b-10254dbe90de",
+    "data": [
+      {
+        "text": "how much i can get for my laundry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cb70046a-8d39-49ef-9dd5-7cd3e4f335ed",
+    "data": [
+      {
+        "text": "how much is my laundry allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "34cdcb4e-f8af-43cd-a34f-508015e36091",
+    "data": [
+      {
+        "text": "do i get a laundry allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7073f4a2-c440-46b3-b5f3-61b4c39ca607",
+    "data": [
+      {
+        "text": "do i have a laundry allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3f544ff-d896-4b2c-90e7-2b2c6a8d7495",
+    "data": [
+      {
+        "text": "how much money i will get for my laundry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bbb0b803-5f08-4928-9df5-3d9271a6063f",
+    "data": [
+      {
+        "text": "what is my laundry alloance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

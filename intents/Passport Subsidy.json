@@ -1,0 +1,33 @@
+{
+  "id": "2a2645cf-8778-4789-9ad2-bd543f9e49df",
+  "name": "Passport Subsidy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "An executive who is required to travel overseas on company business will be eligible to claim a\npassport subsidy of RM20.00 per trip, subject to a maximum of RM200.00 over 5 years."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "e768a049-0b14-4f90-a56b-08b3bfbd58f6",
+    "data": [
+      {
+        "text": "im an ",
+        "userDefined": false
+      },
+      {
+        "text": "editor",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " how much allowance i will get",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8d00c21b-76f1-4167-a01e-b83d37f96f72",
+    "data": [
+      {
+        "text": "non editorial",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cce340c8-907e-4fe3-af42-2d7d7c60d37c",
+    "data": [
+      {
+        "text": "im ",
+        "userDefined": false
+      },
+      {
+        "text": "not editorial",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ", how much allowance i will get",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6d541f76-dca1-46a6-8d7b-c6806b37fc09",
+    "data": [
+      {
+        "text": "how much is the night allowance for an ",
+        "userDefined": false
+      },
+      {
+        "text": "editorial",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "69cf8f13-4de1-48af-8f41-c72bd7ef95f9",
+    "data": [
+      {
+        "text": "if i work at night how much allowance i will get",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "37e78bdc-cc23-4928-b286-e48dea387cf0",
+    "data": [
+      {
+        "text": "night",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e61fea0d-c73a-4c2c-b2bd-6da4b8a58fa2",
+    "data": [
+      {
+        "text": "Night allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "id": "f23ef597-74dd-4f7a-91f2-294a016a40ad",
+  "parentId": "cd1afbbb-2975-42cc-892a-24555d79bf3c",
+  "rootParentId": "cd1afbbb-2975-42cc-892a-24555d79bf3c",
+  "name": "Retirement Benefits - yes",
+  "auto": true,
+  "contexts": [
+    "RetirementBenefits-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RetirementBenefits.RetirementBenefits-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "hangouts",
+          "lang": "en",
+          "condition": "",
+          "title": "Retirement Benefits",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/hrhelpdesk-ylpebn/o/retirment.PNG?alt\u003dmedia\u0026token\u003d9467f011-91f8-4063-8718-420607bf972e"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Retirement Benefits",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/hrhelpdesk-ylpebn/o/retirment.PNG?alt\u003dmedia\u0026token\u003d9467f011-91f8-4063-8718-420607bf972e",
+            "accessibilityText": "Retirement Benefits"
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true,
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

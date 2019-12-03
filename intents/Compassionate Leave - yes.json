@@ -1,0 +1,53 @@
+{
+  "id": "73806d69-a443-46aa-82c9-e5d426e6eafd",
+  "parentId": "a748b173-6141-483a-8523-260fe87a526a",
+  "rootParentId": "a748b173-6141-483a-8523-260fe87a526a",
+  "name": "Compassionate Leave - yes",
+  "auto": true,
+  "contexts": [
+    "CompassionateLeave-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CompassionateLeave.CompassionateLeave-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "hangouts",
+          "lang": "en",
+          "condition": "",
+          "title": "Detail criteria for compassionate leave",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/hrhelpdesk-ylpebn.appspot.com/o/compasionate.PNG?alt\u003dmedia\u0026token\u003daff63439-bb37-4bc3-8c3e-1d086eb125fa"
+        },
+        {
+          "type": 0,
+          "platform": "hangouts",
+          "lang": "en",
+          "condition": "",
+          "speech": "anything else you would like to ask me?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "d1669340-d6d7-425a-93e1-6463034daec4",
+    "data": [
+      {
+        "text": "what is the insurance policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2548847-aab2-4dcc-a352-720c9fc5f1b3",
+    "data": [
+      {
+        "text": "how much is the insurance ammount",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b0b8ea29-e3db-4c1c-8186-fa9b4a541252",
+    "data": [
+      {
+        "text": "how much my insurance covers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "352f82d2-9214-4832-a319-3269bb2d8d88",
+    "data": [
+      {
+        "text": "insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  }
+]

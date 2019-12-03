@@ -1,0 +1,27 @@
+[
+  {
+    "id": "dca92f5a-ed45-4070-9f44-a5688b86962f",
+    "data": [
+      {
+        "text": "editor",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38c52166-7de6-4190-aea4-89b0b60223d5",
+    "data": [
+      {
+        "text": "Editorial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

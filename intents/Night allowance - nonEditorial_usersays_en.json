@@ -1,0 +1,48 @@
+[
+  {
+    "id": "726bdeae-b933-479a-8be6-1ba33856c44e",
+    "data": [
+      {
+        "text": "Non-editorial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "262c208d-9fee-469f-8527-3197500c7ed2",
+    "data": [
+      {
+        "text": "not ",
+        "userDefined": false
+      },
+      {
+        "text": "editorial",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0dfb1e87-d6fb-4aec-b045-02b4ca17bfec",
+    "data": [
+      {
+        "text": "im not an ",
+        "userDefined": false
+      },
+      {
+        "text": "editor",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

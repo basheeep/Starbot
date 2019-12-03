@@ -1,0 +1,51 @@
+{
+  "id": "ed0066d5-6ef9-43ad-84a8-21001ad4eec4",
+  "parentId": "1e26dffa-e21e-4617-b81d-d331a8b2a7df",
+  "rootParentId": "1e26dffa-e21e-4617-b81d-d331a8b2a7df",
+  "name": "Openticket_fallback",
+  "auto": true,
+  "contexts": [
+    "Openticket_fallback",
+    "expectuserentry",
+    "Openticket-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Openticket.Openticket-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1795e8c1-b367-490f-ab2f-fdf56a22f6f0",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "answer",
+          "value": "$answer",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
