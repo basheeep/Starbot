@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <script type="text/javascript">
+    // Listening for auth state changes.
+    // [START authstatelistener]
+    var db;
+    window.onload = function() {
+      var firebaseConfig = {
+        apiKey: "AIzaSyAOnz3n_LnGeN-OslsvjJKpma_5SxhItxI",
+        authDomain: "starbot-2c703.firebaseapp.com",
+        databaseURL: "https://starbot-2c703.firebaseio.com",
+        projectId: "starbot-2c703",
+        storageBucket: "starbot-2c703.appspot.com",
+        messagingSenderId: "463473026934",
+        appId: "1:463473026934:web:4077735763da76e0b47c57"
+
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+
+      const auth = firebase.auth();
+      db = firebase.firestore();
+      var email = localStorage.email;
+      var password = localStorage.password;
+
+      firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // [START_EXCLUDE]
+        if (errorCode === 'auth/wrong-password') {
+
+
+
+        } else {
+
+        }
+        console.log(error);
+
+      }).then(function() {
+
+        firebase.auth().onAuthStateChanged(function(user) {
+          // [START_EXCLUDE silent]
+
+          // [END_EXCLUDE]
+          if (user) {
+            showContent('users');
+            list();
+            listticket();
+            // [END_EXCLUDE]
+          } else {
+            // User is signed out.
+            // [START_EXCLUDE]
+            window.location = 'index.html';
+
+          }
+
+        });
+
+
+      });
+
+
+    };
+  </script>
+  <title>StarbotAdmin</title>
+
+  <style>
+    body,
+    html {
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container ">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a id="users" class="nav-link" href="#users">Users</a>
+          </li>
+          <li class="nav-item">
+            <a id="tickets" class="nav-link" href="#tickets">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a id="logout" class="nav-link">Logout</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+    <div class="menu-content">
+      <div data-menu-content="tickets">
+        <table id="TicketTable" class="table table-striped">
+          <thead>
+            <tr>
+
+              <th>Email</th>
+              <th>Issue</th>
+              <th>Name</th>
+              <th>Response</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="data-temp-ticket">
+
+              <td data-prop="email"></td>
+              <td data-prop="issue"></td>
+              <td data-prop="name"></td>
+              <td data-prop="response"></td>
+              <td>
+                <button class="btn btn-secondary edit">edit</button>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3"></td>
+              <td><button class="btn btn-dark add" id="TicketAdd">add</button></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div data-menu-content="users">
+        <!-- Contacts Table -->
+        <table id="ContactTable" class="table table-striped">
+          <thead>
+            <tr>
+
+              <th>Email</th>
+              <th>Authorised</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="data-temp">
+
+              <td data-prop="email"></td>
+              <td data-prop="authorised"></td>
+              <td>
+                <button class="btn btn-secondary edit">edit</button>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3"></td>
+              <td><button class="btn btn-dark add" id="ContactAdd">add</button></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+
+
+
+
+    </div>
+    <form id="TicketsForm">
+      <div class="modal fade" id="TicketsModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" data-prop="email" placeholder="Enter email" maxlength="100" required />
+              </div>
+              <div class="form-group">
+                <label>Issue</label>
+                <input type="text" class="form-control" data-prop="issue" required />
+              </div>
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" data-prop="name" required />
+              </div>
+              <div class="form-group">
+                <label>Response</label>
+                <input type="text" class="form-control" data-prop="response" />
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <form id="ContactForm">
+      <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" data-prop="email" placeholder="Enter email" maxlength="100" required />
+              </div>
+              <div class="form-group">
+                <label>Authorised</label>
+                <input type="bool" class="form-control" data-prop="authorised" required />
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+
+
+
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-firestore.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+
+      var openticket = function(id) {
+        var modal = $('#TicketsModal');
+        // set current Contact id
+        modal.data('id', id);
+        // reset all inputs
+        modal.find('input').val('');
+        modal.modal('show');
+
+        if (!id) return;
+
+        // get Contact to edit
+        db.collection("tickets").doc(id).get().then(function(doc) {
+          if (doc.exists) {
+            var data = doc.data();
+            //set form inputs from Contact data
+            modal.find('input[data-prop]').each(function() {
+              var inp = $(this);
+              inp.val(data[inp.data('prop')] || '');
+            });
+
+          } else {
+            alert("No such record");
+          }
+        }).catch(function(error) {
+          alert("failed to read contact");
+        });
+      };
+
+      var open = function(id) {
+        var modal = $('#ContactModal');
+        // set current Contact id
+        modal.data('id', id);
+        // reset all inputs
+        modal.find('input').val('');
+        modal.modal('show');
+
+        if (!id) return;
+
+        // get Contact to edit
+        db.collection("users").doc(id).get().then(function(doc) {
+          if (doc.exists) {
+            var data = doc.data();
+            //set form inputs from Contact data
+            modal.find('input[data-prop]').each(function() {
+              var inp = $(this);
+              inp.val(data[inp.data('prop')] || '');
+            });
+
+          } else {
+            alert("No such record");
+          }
+        }).catch(function(error) {
+          alert("failed to read contact");
+        });
+      };
+      var add = function(e) {
+        e.preventDefault();
+        open('');
+      };
+
+      var addticket = function(e) {
+        e.preventDefault();
+        openticket('');
+      };
+
+
+
+      var edit = function(e) {
+        e.preventDefault();
+        var id = $(this).parents('tr:first').data('id');
+
+        open(id);
+      };
+
+      var editticket = function(e) {
+        e.preventDefault();
+        var id = $(this).parents('tr:first').data('id');
+
+        openticket(id);
+      };
+      // update or add
+      var save = function(e) {
+        e.preventDefault();
+
+        var modal = $('#ContactModal');
+        var id = modal.data('id');
+        var data = {};
+        //read values from form inputs
+        modal.find('input[data-prop]').each(function() {
+          var inp = $(this);
+          data[inp.data('prop')] = inp.val();
+        });
+
+        // update or add
+        (id ? db.collection("users").doc(id).update(data) : db.collection("users").add(data)).then(function(result) {
+            // hide modal and reload list
+            modal.modal('hide');
+            location.reload();
+            //list();
+          })
+          .catch(function(error) {
+            alert(error);
+          });
+      };
+
+
+      // open form modal
+
+      $('#ContactTable').on('click', 'button.edit', edit);
+      $('#ContactAdd').click(add);
+      $('#ContactForm').submit(save);
+
+      $('#TicketTable').on('click', 'button.edit', editticket);
+      $('#TicketAdd').click(addticket);
+      $('#TicketsForm').submit(saveticket);
+    });
+    var saveticket = function(e) {
+      e.preventDefault();
+
+      var modal = $('#TicketsModal');
+      var id = modal.data('id');
+      var data = {};
+      //read values from form inputs
+      modal.find('input[data-prop]').each(function() {
+        var inp = $(this);
+        data[inp.data('prop')] = inp.val();
+      });
+
+      // update or add
+      (id ? db.collection("tickets").doc(id).update(data) : db.collection("tickets").add(data)).then(function(result) {
+          // hide modal and reload list
+          modal.modal('hide');
+          location.reload();
+        })
+        .catch(function(error) {
+          alert(error);
+        });
+    };
+
+
+    var list = function() {
+      var listTempTr;
+      var tblBody = $('#ContactTable > tbody');
+      //remove any data rows
+      tblBody.find('tr.data').remove();
+      //get template row
+      var tempTr = tblBody.find('tr.data-temp').removeClass('data-temp').addClass('data').remove();
+      if (tempTr.length) {
+        listTempTr = tempTr;
+      } else {
+        tempTr = listTempTr;
+      }
+
+      // get collection of Contacts
+      db.collection("users").get().then(function(querySnapshot) {
+        querySnapshot.forEach(function(doc) {
+          // clone template row and append to table body
+          var tr = tempTr.clone();
+          tr.data('id', doc.id);
+          var data = doc.data();
+          // set cell values from Contact data
+          tr.find('td[data-prop]').each(function() {
+            var td = $(this);
+            td.text(data[td.data('prop')] || '');
+          });
+          tblBody.append(tr);
+        });
+      });
+    };
+
+
+    let listticket = function() {
+      var ticketlistTempTr;
+      var tblBody = $('#TicketTable > tbody');
+      //remove any data rows
+      tblBody.find('tr.data').remove();
+      //get template row
+      var tempTr = tblBody.find('tr.data-temp-ticket').removeClass('data-temp-ticket').addClass('data').remove();
+      if (tempTr.length) {
+        ticketlistTempTr = tempTr;
+      } else {
+        tempTr = ticketlistTempTr;
+      }
+
+      // get collection of Contacts
+      db.collection("tickets").get().then(function(querySnapshot) {
+        querySnapshot.forEach(function(doc) {
+          // clone template row and append to table body
+          var tr = tempTr.clone();
+          tr.data('id', doc.id);
+          var data = doc.data();
+          // set cell values from Contact data
+          tr.find('td[data-prop]').each(function() {
+            var td = $(this);
+            td.text(data[td.data('prop')] || '');
+          });
+          tblBody.append(tr);
+        });
+      });
+    };
+
+    var $content = $('.menu-content');
+
+    function showContent(type) {
+      $('div', $content).hide();
+      $('div[data-menu-content=' + type + ']').show();
+    }
+
+    $('.navbar-nav').on('click', '.nav-link', function(e) {
+      showContent(e.currentTarget.hash.slice(1));
+      e.preventDefault();
+    });
+
+    $("#users").click(function() {
+      showContent('users');
+      //      list();
+    }); //end click
+
+    $("#tickets").click(function() {
+      showContent('tickets');
+      //    listticket();
+    }); //end click
+
+
+
+
+    $("#logout").click(function() {
+      firebase.auth().signOut().then(function() {
+        //  window.location = 'index.html';
+        localStorage.email = '2';
+        localStorage.password = '2';
+      }).catch(function(error) {
+        // An error happened.
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>
